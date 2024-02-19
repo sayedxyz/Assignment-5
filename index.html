@@ -1,73 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SKY-Ticket</title>
-            <!-- daisy UI & tailwind CSS -->
-            <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
-            <script src="https://cdn.tailwindcss.com"></script>
-            
+    <link rel="stylesheet" href="./styles/style.css">
+    <!-- google font  -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- daisy UI & tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
-<body >
+
+<body style="font-family: 'Raleway', sans-serif;">
     <header class="m-auto w-[1171px]">
-            <!-- navbar section -->
+        <!-- navbar section -->
 
-       <div class="flex justify-between mt-10 container mx-auto items-center">
+        <div class="flex justify-between mt-10 container mx-auto items-center">
             <div>
-               <h1 class="font-extrabold text-4xl text-[#131318]">SKY-Ticket</h1>
-                    </div>
-                
-                    <div>
-                        <ul class="flex gap-20 text-base font-normal">
-                                <li>Home</li>
-                                <li>About</li>
-                                <li>Destination</li>
-                                <li>Search</li>
-                        </ul>
-                    </div>
-                
-                    <div>
-                        <div class="flex items-center gap-5">
-                                <button class="btn btn-primary bg-white text-green-500 font-bold text-center text-[20px] border-green-500">Bus <img src="images/bus-icon.png" alt="bus-icon"></button> 
-                            </div>
-                        </div>
-                    </div>
+                <h1 class="font-extrabold text-4xl text-[#131318]">SKY-Ticket</h1>
+            </div>
 
-                    <!-- banner section -->
+            <div>
+                <ul class="flex gap-20 text-base font-normal">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Destination</li>
+                    <li>Search</li>
+                </ul>
+            </div>
 
-                    <div class="hero min-h-screen mt-10 " style= "background-image: url(./images/banner.png)">
-                        <div class="hero-overlay"></div>
-                        <div class="hero-content text-center text-neutral-content">
-                          <div class="max-w-lg">
-                            <h1 class="mb-5 text-5xl font-bold w-max">End-to-End Travel With</h1>
-                            <h1 class="mb-5 text-5xl font-bold text-[#1DD100]">SKY Travel</h1>
-                            <p class="mb-5">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
-                            <button class="btn btn-primary font-bold text-[#030712] bg-[#1DD100]">Buy Tickets</button>
-                          </div>
-                        </div>
-                      </div>
+            <div>
+                <div class="flex items-center gap-5">
+                    <button
+                        class="btn btn-primary bg-white text-green-500 font-bold text-center text-[20px] border-green-500">Bus
+                        <img src="images/bus-icon.png" alt="bus-icon"></button>
+                </div>
+            </div>
+        </div>
+
+        <!-- banner section -->
+
+        <div class="hero min-h-screen mt-10 " style="background-image: url(./images/banner.png)">
+            <div class="hero-overlay"></div>
+            <div class="hero-content text-center text-neutral-content">
+                <div class="max-w-lg">
+                    <h1 class="mb-5 text-5xl font-bold w-max">End-to-End Travel With</h1>
+                    <h1 class="mb-5 text-5xl font-bold text-[#1DD100]">SKY Travel</h1>
+                    <p class="mb-5">Yes, you can run unit tests and view the results directly within the app. The
+                        integrated testing features allow for a streamlined .</p>
+                    <button class="btn btn-primary font-bold text-[#030712] bg-[#1DD100]">Buy Tickets</button>
+                </div>
+            </div>
+        </div>
 
     </header>
 
-    <main  class="m-auto w-[1171px]">
-            <!-- coupon section -->
-                                    <!-- text middle -->
-            <div  class="m-auto w-[1171px]">
-                <h1 class="text-4xl mt-15 font-bold text-center py-8">Best offers for you</h1>
-            </div>
+    <main class="m-auto w-[1171px]">
+        <!-- coupon section -->
+        <!-- text middle -->
+        <div class="m-auto w-[1171px]">
+            <h1 class="text-4xl mt-15 font-bold text-center py-8">Best offers for you</h1>
+        </div>
 
-                            <!-- full section -->
+        <!-- full section -->
 
-            <div class="flex w-[1171px] gap-6 ">
+        <div class="flex w-[1171px] gap-6 ">
 
-                            <!-- left side -->
+            <!-- left side -->
             <div class="flex w-[573px] h-[220px] rounded-3xl">
                 <div class="bg-[#FFBF0F] flex flex-col items-center justify-center w-[336px] rounded-l-3xl">
                     <div>
                         <p class="text-black font-bold text-4xl text-center">15% OFF</p>
                         <p class="text-black font-bold text-xl text-center">on your next purchase </p>
-                         <p class="text-black font-bold text-base text-center">use by January 2024</p>
+                        <p class="text-black font-bold text-base text-center">use by January 2024</p>
 
                     </div>
 
@@ -81,14 +98,14 @@
                 </div>
             </div>
 
-                                    <!-- right side -->
+            <!-- right side -->
 
             <div class="flex w-[573px] h-[220px] rounded-3xl">
                 <div class="bg-[#F78C9C] h-[220px] w-[336px] flex flex-col items-center justify-center rounded-l-3xl">
                     <div class="h-[116px] w-[216px]">
                         <p class="text-black font-bold text-4xl text-center">20% OFF</p>
                         <p class="text-black font-bold text-xl text-center">on your next purchase </p>
-                            <p class="text-black font-bold text-base text-center">use by January 2024</p>
+                        <p class="text-black font-bold text-base text-center">use by January 2024</p>
 
                     </div>
 
@@ -109,48 +126,148 @@
             <button>See All Offers</button>
         </div>
 
+
     </main>
 
-    <footer class="w-[1440px] h-[457px] bg-[#030712] m-auto">
-        <div class="flex text-white justify-between w-[1170px] h-[118px] m-auto py-32">
-            <div>
-                <h1 class="text-4xl  font-bold">SKY-Ticket</h1>
-                <p class="pt-3">SKY-Ticket is a digital platform to make your <br>daily communication via this website.</p>
-            </div>
-            <div>
-                <div>
-                    <p>Download our app</p>
-                </div>
-                <div class="flex gap-1 border items-center mt-2">
-                    <div>
-                        <img src="./images/playstore.png" alt="">
+    <!-- functional with footer where 3 more parent div -->
+
+    <div
+        class="m-auto w-[1440px] h-[2208px] bg-[#F7F8F8] mt-10 border-4 border-x-0 border-b-0 border-[#1DD100] rounded-t-[88px]">
+        <div class="mt-10 text-center">
+            <h1 class="font-bold text-[40px]">SKY Travel</h1>
+            <p class="w-[736px] h-[60px] m-auto mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+                tempora porro architecto facilis voluptate dolor eius sequi aliquam adipisci facere.</p>
+
+        </div>
+
+        <!-- sky travel static with dynamic interface -->
+        <!-- ekhane aro 3 ta dib=v thakbe  prothom tate 2 ta div thakbe tar prothom tate aro 2 ta div thakbe -->
+
+
+
+        <div class="w-[1170px] h-[418px] bg-white flex items-center m-auto mt-16 rounded-3xl">
+
+            <!-- 1st -->
+
+            <div class="mx-10">
+                <div class="w-[808px] h-[72px] flex justify-between">
+                    <div class="flex gap-5 items-center">
+                        <div>
+                            <img src="./images/bus-logo.png" alt="">
+                        </div>
+                        <div>
+                            <h1 class="font-bold text-[32px]">SKY Travel Agency</h1>
+                            <p style="font-family: 'Inter', sans-serif;">Coach-009-WEB ! AC_Business</p>
+                        </div>
+
                     </div>
-                    <div class="">
-                        <p>Get IT ON</p>
-                        <h3 class="text-[20px]">Google Play</h3>
+
+
+                    <div class="flex gap-3 items-center">
+                        <div>
+                            <img src="./images/seat-green.png" alt="">
+                        </div>
+                        <div>
+                            <p class="font-medium text-[18px] text-[#1DD100]" style="font-family: 'Inter', sans-serif;">
+                                40 Seats left</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-[808px] h-[258px] bg-[#F7F8F8] mt-8 rounded-3xl">
+                    <div class="p-10 flex flex-col gap-5">
+                        <div class="flex justify-between">
+                            <p class="text-[18px]">Route</p>
+                            <p class="font-semibold text-[18px]">Dhaka-Sylhet</p>
+                        </div>
+                        <hr>
+                        <div class="flex justify-between items-center">
+                            <p class="text-[18px]">Depurture Time</p>
+                            <p class="font-semibold text-[18px]">9:00 PM</p>
+                        </div>
+                        <hr>
+                        <div class="flex justify-around font-medium text-[16]"
+                            style="font-family: 'Inter', sans-serif;">
+                            <p>Boarding Point - Laxmipur</p>
+                            <p>Dropping Point - Bogura</p>
+                            <p>Est. Time - 11 Hour</p>
+
+                        </div>
                     </div>
 
                 </div>
-
             </div>
 
-        </div>
-        <div class="w-[1170px] m-auto">
-            <hr>
-        </div>
-        <div class="flex text-white justify-between w-[1170px] h-[118px] m-auto mt-4">
-            <div>
-                <p>@all rights reserved by SKY-Ticket Limited.2024</p>
+
+            <!-- 2nd -->
+            <div class="w-[80px] h-[420px]">
+                <img src="./images/info-devider.png" alt="">
             </div>
-            <div>
-                <ul class="flex">
-                    <li>Terms & Condition</li>
-                    <li>Return & Refund Policy</li>
-                    <li>Privacy Policy</li>
-                </ul>
+            <!-- 3rd -->
+            <div class="flex flex-col items-center ">
+                <img src="./images/fare.png" alt="">
+                <h3 class="font-bold text-[32px]">550 Taka</h3>
+                <h3 class="font-semibold text-[24px]">Per Seat</h3>
+
             </div>
         </div>
-    </footer>
+
+
+        <!-- functional section -->
+        <div class="w-[1170px] h-[1056px] border-2 border-black m-auto mt-16">
+
+        </div>
+
+        <!-- footer section -->
+        <div>
+            <footer class="w-[1440px] h-[457px] bg-[#030712] m-auto">
+                <div class="w-[1170px] h-[217px] pl-[145px] pt-[82px] pr-[125px] pb-[158px]">
+                    <div class="flex text-white justify-between w-[1170px] h-[118px]">
+                        <div>
+                            <h1 class="text-4xl  font-bold">SKY-Ticket</h1>
+                            <p class="pt-3">SKY-Ticket is a digital platform to make your <br>daily communication via
+                                this website.</p>
+                        </div>
+                        <div>
+                            <div>
+                                <p>Download our app</p>
+                            </div>
+                            <div class="flex gap-1 border items-center mt-2">
+                                <div>
+                                    <img src="./images/playstore.png" alt="">
+                                </div>
+                                <div class="">
+                                    <p>Get IT ON</p>
+                                    <h3 class="text-[20px]">Google Play</h3>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="w-[1170px] m-auto mt-10">
+                        <hr>
+                    </div>
+                    <div class="flex text-white justify-between w-[1170px] h-[19px] mt-[32px]">
+                        <div>
+                            <p>@all rights reserved by SKY-Ticket Limited.2024</p>
+                        </div>
+                        <div>
+                            <ul class="flex gap-1">
+                                <li>Terms & Condition</li>
+                                <li>Return & Refund Policy</li>
+                                <li>Privacy Policy</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+
+
 
 </body>
+
 </html>
